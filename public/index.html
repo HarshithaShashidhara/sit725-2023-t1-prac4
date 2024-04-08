@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.2P</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper navbar-size">
+            <a href="#" class="brand-logo"><img class="user-image-size" src="images/user-image.png" height="30" /></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Additional code snippet provided -->
+    <main class="container-fluid d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="container content">
+            <h1> WELCOME TO SIT725 Week 3 </h1>
+            <p class="custom-gap"> This is a demo application that tries to use a few components  from materialize and through this practical we try to have some  fun with Materialize  and its components</p>
+            <div class="image-container text-center">
+                <img src="images/livedemo.png" alt="live demo">
+                <button id="clickMeButton">Click Me</button>
+                <!-- Cards section -->
+                <div class="row" id="card-section"></div>
+            </div>
+<!-- Form section -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Add Card</h4>
+        <form id="addCardForm">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="title" type="text" class="validate">
+                    <label for="title">Title</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="image" type="text" class="validate">
+                    <label for="image">Image URL</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="link" type="text" class="validate">
+                    <label for="link">Link</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="description" type="text" class="validate">
+                    <label for="description">Description</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <button type="submit" class="waves-effect waves-light btn">Add Card</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

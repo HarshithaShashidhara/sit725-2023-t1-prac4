@@ -1,0 +1,54 @@
+/* Simplified CSS styles with card styles */
+
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.brand-logo {
+    flex: 2;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #F28487;
+    /* color: white; */
+}
+
+.container.content {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.image-container img {
+    margin-top: auto;
+}
+
+#clickMeButton {
+    margin-top: 10px;
+}
+
+.card-body h1,
+.card-body p {
+    font-size: small;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    height: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    max-height: 200px;
+}
